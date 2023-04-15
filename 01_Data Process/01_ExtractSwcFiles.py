@@ -1,11 +1,10 @@
 '''
 Extract the swc file before and after registration from the raw eswc file
 '''
-import os,csv
-import shutil
-global brain_info
+import os,csv,shutil
 import numpy as np
 ## restore the unaligned swc file according to the given brain resolution size
+global brain_info
 with open('../Data/Other_Infomation/all_brain_metainfo.csv') as f:
     brain_info=list(csv.reader(f))
     f.close()

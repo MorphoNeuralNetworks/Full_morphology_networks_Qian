@@ -1,7 +1,7 @@
 '''
 Resample the file to add nodes
 '''
-import os,csv,math
+import os,math
 import shutil
 import numpy as np
 
