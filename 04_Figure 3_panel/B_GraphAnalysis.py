@@ -185,7 +185,7 @@ x_ba=np.log10(x_ba)
 y_ba=np.log10(y_ba)
 
 ## degree distribution
-plt.close()
+plt.close("all")
 fig,ax=plt.subplots(figsize=(6,4))
 ax.spines['right'].set_visible(False)
 ax.spines['top'].set_visible(False)
@@ -266,7 +266,7 @@ print(stats.pearsonr(g.triad_census(),g_ws.triad_census()))
 print(stats.pearsonr(g.triad_census(),g_ba.triad_census()))
 
 ## plot
-plt.close()
+plt.close("all")
 bar_width = 0.3 # 0.23
 x=np.arange(1,17)
 fig,ax=plt.subplots(figsize=(8,3))
@@ -322,7 +322,7 @@ for i in range(len(temp)):
     for j in range(len(temp[i])):
         temp[i][j]=RatioChange(temp[i][j])
 
-plt.close()
+plt.close("all")
 bar_width = 0.19  #0.23
 x=np.arange(1,17)
 fig,ax=plt.subplots(figsize=(8,3))
