@@ -1,3 +1,6 @@
+'''
+Generating color dictionaries for brain regions and community detection
+'''
 import numpy as np
 import json
 

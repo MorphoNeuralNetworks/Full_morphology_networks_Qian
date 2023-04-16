@@ -1,3 +1,6 @@
+'''
+Network analysis to obtain cost, storage capacity and routing efficiency
+'''
 import subprocess,os
 import numpy as np
 import math
