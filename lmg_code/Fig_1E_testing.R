@@ -20,12 +20,16 @@ df_plot <- data.frame(label=paste0(bt_n$V2," (N=",ncells[bt_n$V2],")"),
                       bt_dens=dens_hom)
 
 df_plot$coarse_reg <- bt_n$V2
+df_plot$coarse_reg[!(df_plot$coarse_reg %in% c("LGd","MG","VPL","VPM","RT","CP","DG"))] <- "Cortex"
 df_plot$coarse_reg[df_plot$coarse_reg %in% c("LGd","MG","VPL","VPM","RT")] <- "Thalamus"
 df_plot$coarse_reg[df_plot$coarse_reg %in% c("CP")] <- "Striatum"
 df_plot$coarse_reg[df_plot$coarse_reg %in% c("DG")] <- "Hippocampus"
-df_plot$coarse_reg[!(df_plot$coarse_reg %in% c("LGd","MG","VPL","VPM","RT","CP","DG"))] <- "Cortex"
 
-df_plot[]
+kruskal.test(df_plot$bt_dens,df_plot$coarse_reg)
+pairwise.t.test(df_plot$bt_dens,df_plot$coarse_reg)
+
+
+df_plot
 
 ggboxplot(df_plot,x="label",y="bt_dens",fill="coarse_reg",
           position = position_dodge(), palette="Set1")+
