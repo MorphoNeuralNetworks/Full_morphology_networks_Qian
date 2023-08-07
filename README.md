@@ -1,7 +1,7 @@
 # Full morphology networks
 
-This is the code for the paper "The effect of full morphological reconstruction details on whole brain single cell networks" (doi:)  
-(links to code files are not available)  
+This is the code for the paper "Non-homogenous axonal bouton distribution in whole-brain single cell neuronal networks" under consideration  
+(links to code files will be updated soon)   
 ### Content
 ### Data Process
   - [DataProcess/ExtractSwcFiles/](https://github.com/MorphoNeuralNetworks/Full_morphology_networks_Qian/blob/main/01_Data%20Process/01_ExtractSwcFiles.py): extract the swc file before and after registration from the raw eswc file   
@@ -32,7 +32,7 @@ Code for each image in figures
 
 ### Code Contributors
 - **Penghao Qian** [@Mr-strlen](https://github.com/Mr-strlen) (Institute for Brain and Intelligence, Southeast University)
-- **Linus Manubens-Gil** [@lmanubens](https://github.com/lmanubens) ()
+- **Linus Manubens-Gil** [@lmanubens](https://github.com/lmanubens) (Institute for Brain and Intelligence, Southeast University)
 
 ### Publication
 
