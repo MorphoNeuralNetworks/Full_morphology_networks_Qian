@@ -1,7 +1,7 @@
 # Full morphology networks
 
 This is the code for the paper "Non-homogenous axonal bouton distribution in whole-brain single cell neuronal networks" under consideration  
-(links to code files will be updated soon)   
+Preprint: https://www.biorxiv.org/content/10.1101/2023.08.07.552361  
 ### Content
 ### Data Process
   - [DataProcess/ExtractSwcFiles/](https://github.com/MorphoNeuralNetworks/Full_morphology_networks_Qian/blob/main/01_Data%20Process/01_ExtractSwcFiles.py): extract the swc file before and after registration from the raw eswc file   
